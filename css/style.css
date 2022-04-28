@@ -1,0 +1,120 @@
+/*CONFIGURACION DEL BODY*/
+body{
+  margin:0 32px;
+  background-color: #E5E5E5 ;
+  color: #0A3871;
+  font-size: 2rem;
+}
+
+/*CONFIGURACIÓN IMAGENES*/
+.logo,.muneco{
+  margin-top: 30%;
+  max-width: 100%;
+  height: auto;
+}
+.logo{
+  margin-top: 40px;
+  margin-left: 84px;
+}
+
+/*CONFIGURACIÓN DEL TEXTAREA*/
+textarea,
+textarea:hover,
+textarea:focus{
+  background: inherit;
+  border:  none;
+  color:  inherit;
+  font: inherit;
+  outline: none;
+  flex-grow: 1;
+}
+textarea{
+  width: 600px;
+  resize: none;
+  border: none;
+  font-size: 40px;
+  color: #0A3871;
+}
+#mensaje {
+  font-size: 2rem;
+  max-width: 100%;
+  margin: 2rem;
+  color: #0a3871;
+}
+::placeholder {
+  color: #0A3871;
+}
+
+/*CONFIGURACIÓN ADVERTENCIA DE SOLO MINISCULAS SIN ACENTO*/
+#vector{
+  width: 16px;
+  height: 16px;
+  margin: 5px 5px 0 5px;
+}
+small{
+  font-size: 18px;
+}
+
+/*CONFIGURACIÓN BARRA LATERAL*/
+.lateral{
+  background-color: #ffffff;
+  margin-top: 40px;
+  height: 944px;
+  border-radius: 25px;
+  text-align: center;
+}
+.lateral.button .ver{
+  display: contents;
+}
+.lateral.con-resultado .button{
+  visibility: visible;
+}
+.lateral.con-resultado .info {
+  display:  none;
+}
+span, strong{
+  color: #343A40;
+  font-size: 16px;
+  font-weight: bold;
+}
+strong{
+  font-size: 24px;
+}
+.resultado {
+  padding: 32px 32px;
+  color: #495057;
+  font-size: 32px;
+  max-width: 100%;
+  word-break: break-all;
+  overflow-y: auto;
+  text-align: left;
+}
+
+/*CONFIGURACIÓN DISTINTOS BOTONES*/
+.button{
+  visibility: hidden;
+  background-color: #0A3871;
+}
+.button2{
+  visibility: visible;
+  width: 100%;
+  height: 67px;
+  margin-top: auto;
+}
+.boton{
+  height: 67px;
+  margin-top: 5px;
+  color: #ffffff;
+} 
+.btn-color-e{
+  background-color: #028a2b;
+}
+.btn-color-e:hover{
+  background-color: #00b837;
+}
+.btn-color-d{
+  background-color: #7900be;
+}
+.btn-color-d:hover{
+  background-color: #d648f3;
+}
