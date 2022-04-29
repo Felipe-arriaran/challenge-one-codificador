@@ -3,7 +3,6 @@ body{
   margin:0 32px;
   background-color: #E5E5E5 ;
   color: #0A3871;
-  font-size: 2rem;
 }
 
 /*CONFIGURACIÓN IMAGENES*/
@@ -59,7 +58,7 @@ small{
 .lateral{
   background-color: #ffffff;
   margin-top: 40px;
-  height: 944px;
+  height: 600px;
   border-radius: 25px;
   text-align: center;
 }
